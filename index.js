@@ -17,8 +17,9 @@ const html = `
   <h1>👋 Hello from Herbie's Codex!</h1>
   <p class="time">Server time: ${now.toISOString()}</p>
   <div class="note">
-    <strong>Auto-preview server is running!</strong><br>
-    This page auto-updates when new code is pushed to GitHub.
+    <strong>✅ Auto-preview server is running!</strong><br>
+    This page auto-updates when new code is pushed to GitHub.<br>
+    <em>Last updated: ${new Date().toISOString()}</em>
   </div>
 </body>
 </html>
